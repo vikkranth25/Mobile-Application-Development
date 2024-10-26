@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registerPage"
+    android:orientation="vertical"
+    android:background="@drawable/imgbg">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="297dp"
+        android:layout_height="69dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="350dp"
+        android:id="@+id/em2"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="50dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Email"
+            android:id="@+id/emailReg"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="297dp"
+        android:layout_height="69dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="450dp"
+        android:id="@+id/p2"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:id="@+id/passReg"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="274dp"
+        android:layout_height="50dp"
+        android:text="Register"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="568dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"/>
+
+</LinearLayout>
