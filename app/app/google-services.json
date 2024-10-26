@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "768287529630",
+    "project_id": "appdevjaiproj",
+    "storage_bucket": "appdevjaiproj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768287529630:android:b480f7e64897b0b3acf98f",
+        "android_client_info": {
+          "package_name": "com.programminghut.realtime_object"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9qesCxSeUEX_sbF4JiSUMK1xQU8jlD08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
